@@ -1,0 +1,11 @@
+services:
+  - type: web
+    runtime: static
+    name: farmacia-carolina-viera
+    repo: https://github.com/abrahammarco7/curso-nuxt
+    branch: deploy/farmacia-carolina
+    buildCommand: echo 'Farmacia Carolina Viera Bosa - sitio estatico listo'
+    staticPublishPath: public
+    autoDeployTrigger: "off"
+    domains:
+      - farmaciacarolina.jkromlab.com
